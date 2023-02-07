@@ -4,7 +4,7 @@ First Problem:
 */
 
 function mindGame(num) {
-    let sum = (((num * 3) + 10) / 2) - 5;
+    const sum = (((num * 3) + 10) / 2) - 5;
     return sum;
 
 }
@@ -35,7 +35,7 @@ function isLGSeven(input) {
         const inptDifSum = input - 7;
         return inptDifSum;
     } else {
-        let result = input * 2;
+        const result = input * 2;
         return result;
     }
 }
@@ -64,10 +64,10 @@ Fifth Problem:
          // Desc: Called a function name of gemsToDiamond and pass 3 perameter for adding friends total gems power. then adding with + (plus) operator for get total gems. then write if else condition for "if gemsTotal number greater then 1000+ then minus from gems friends total power" then return final total output
 */
 function gemsToDiamond(fd1, fd2, fd3) {
-    let gemsFd1 = fd1 * 21;
-    let gemsFd2 = fd2 * 32;
-    let gemsFd3 = fd3 * 43;
-    let gemsFdTotal = gemsFd1 + gemsFd2 + gemsFd3;
+    const gemsFd1 = fd1 * 21;
+    const gemsFd2 = fd2 * 32;
+    const gemsFd3 = fd3 * 43;
+    const gemsFdTotal = gemsFd1 + gemsFd2 + gemsFd3;
     // console.log(gemsFdTotal);
     if (gemsFdTotal > 2000) {
         const gemsFinalTolal = gemsFdTotal - 2000;
